@@ -221,9 +221,6 @@ width: 200px;
 
 /* end fancybox */
 
-
-
-
 html, body {
 	margin: 0;
 	padding: 0;	
@@ -2783,3 +2780,20 @@ body.overlay::after{
     }
 }
 
+/* metonymous online */
+
+h2 {
+	line-height: 0.9em;
+	padding-bottom: 0.3em;
+}
+
+.status {
+	/*background-color: #99ff99;*/
+}
+.subtle {
+	color: #cccccc;	
+}
+.subtle a {
+	color: #dddddd;
+	
+}
