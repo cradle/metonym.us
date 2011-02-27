@@ -2783,17 +2783,39 @@ body.overlay::after{
 /* metonymous online */
 
 h2 {
-	line-height: 0.9em;
-	padding-bottom: 0.3em;
+	line-height: 0.85em;
+	padding-bottom: 0.5em;
 }
 
 .status {
 	/*background-color: #99ff99;*/
 }
 .subtle {
-	color: #cccccc;	
+	color: #ddd;	
+	font-weight: normal;
+	font-style: italic;
 }
 .subtle a {
-	color: #dddddd;
+	color: #eee;
+}
+h2 .subtle {
+	color: #ccc;
+}
+h2 .subtle:before {
+	content: '';
+}
+div#inner-wrapper {
+	padding-bottom: 2em;
 	
+}
+.emphasis {
+	font-style: italic;
+}
+li.last {
+	margin-top: 0.5em;
+	
+}
+.subtitle {
+	color: #ddd;
+	text-transform: uppercase;
 }
