@@ -965,7 +965,7 @@ footer#fixed-footer{
     width: 100%;
     position: fixed;
     bottom: 0px;
-    height: 40px;
+    height: 60px;
 	/*background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 242, 242, 0) ),  color-stop(50%, rgba(242, 242, 242, 1) ));
 	background: -webkit-linear-gradient(top, rgba(242, 242, 242, 0) 0%, rgba(242, 242, 242, 1) 50% );
 	background: -moz-linear-gradient(top, rgba(242, 242, 242, 0) 0%, rgba(242, 242, 242, 1) 50%);
@@ -994,9 +994,10 @@ footer#fixed-footer nav{
 
 footer#fixed-footer nav li{
     display: inline-block;
-    padding: 5px 5px;
+    padding: 0 5px 5px 0;
     margin: 0px 5px;
     margin-right: 35px;
+    font-size: 12px;
     -webkit-transition: margin-right .2s ease-out;
     -moz-transition: margin-right .2s ease-out;
     transition: margin-right .2s ease-out;
@@ -1007,10 +1008,6 @@ footer#fixed-footer .hover li{
 }
 footer#fixed-footer .hover li:last-child{
     margin-right: 0px;
-}
-footer#fixed-footer nav li:first-child{
-    padding-left: 0;
-    margin-left: 0;
 }
 footer#fixed-footer nav li:last-child{
     float: right;
