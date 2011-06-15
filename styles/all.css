@@ -306,6 +306,16 @@ h1 {
 	font-family: "Museo 700", Arial;
 }
 
+span#goods-and-services {
+	float: right;
+	font-weight: normal;
+	color: #ccc;
+}
+span#goods-and-services a {
+	font-weight: bold;
+	color: black;
+}
+
 h1 em {
 	font-size: 50%;
 	letter-spacing: -0.05em;
@@ -658,7 +668,7 @@ h2{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   float: left;
   margin-top: 34px;
-  width: 542px;
+  width: 100%;
 }
 /*
 
